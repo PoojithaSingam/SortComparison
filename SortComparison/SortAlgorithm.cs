@@ -13,7 +13,6 @@ namespace SortComparison
 {
     public class SortAlgorithm
     {
-
         ArrayList arrayToSort;
         Graphics g;
         Bitmap bmpsave;
@@ -39,9 +38,7 @@ namespace SortComparison
 
             pnlSamples.Image = bmpsave;
             DrawSamples();
-
         }
-
         public IList BubbleSort(IList arrayToSort)
         {
             int n = arrayToSort.Count - 1;
@@ -737,12 +734,9 @@ public IList GnomeSort(IList arrayToSort)
                     }
                     Thread.Sleep(speed);
                 }
-
-
             }
             return arrayToSort;
         }
-
 public IList PigeonHoleSort(IList list)
 {
     object min = list[0], max = list[0];
