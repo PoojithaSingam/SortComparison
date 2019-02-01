@@ -3,6 +3,6 @@
 Team members
 Gangadhar Adusumalli
 Gouthami Pasham
-Poojitha Singham
+Poojitha Singam
 Srujana Gattu
 Himabindu Poshala
